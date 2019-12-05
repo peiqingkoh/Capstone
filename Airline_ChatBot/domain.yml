@@ -1,0 +1,111 @@
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+- airline_name
+- airline_staff
+- positive_experience
+- negative_experience
+- good_event
+- flight_query_booking_refund
+- flight_query_delay_cancellation
+- passengers_bad_experience
+- passengers_good_experience
+- general_query_checkin_handcarry_seatings
+- events
+entities:
+- airline
+- employee
+- positive
+- negative
+- event
+- querytype
+templates:
+  utter_greet:
+  - text: Hey there ;) I'm a feedback chatbot. All comments/feedbacks are welcomed.
+      We are committed to improve our services and serve you better in your next trip.
+  - text: Hello :D I am a feedback chatbot. All comments/feedbacks are welcomed. We
+      are committed to improve our services and serve you better in your next journey.
+  - text: Hi :) I'm a feedback chatbot. All comments/feedbacks are welcomed. We are
+      committed to improve our services and serve you better in your next flight.
+  utter_cheer_up:
+  - text: 'Here is something to cheer you up:'
+    image: https://i.imgur.com/nGF1K8f.jpg
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Bye
+  - text: Good Bye.
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_complain_airline:
+  - text: We're sorry you dislike our airline so much :( . What can we improve so
+      you have a better flight experience in future ?
+  - text: I'm sorry to hear that you feel this way. Is there anything that i can assist
+      you with?
+  - text: oh no! I'm so sorry to hear that you feel this way. Please provide me more
+      details of your experience.
+  - text: We're so sorry that has been your flight experience. Please do let us know
+      if we can help in some way.
+  utter_complain_employee:
+  - text: Oh my!! :( What's going on and how can we help?
+  - text: Sounds like we need to learn a bit more. What happened and how can we help?
+  - text: Sorry to hear that. Is there anything we can help you with?
+  - text: we don't like hearing that we've upset you. How can we help you today ?
+  utter_solution_airline:
+  - text: We will improve our service better to ensure you have a pleasant journey
+      with us again in the future.
+  - text: Do be assure that we will improve our flight service so that you will have
+      a great trip in the future.
+  utter_solution_employee:
+  - text: Pls know we are capable of doing better and any deviation from our stellar
+      brand of services is regrettable anomaly. We apologize for your experience and
+      hope you will give us the opportunity to serve you better in the future.
+  - text: Please be assure that we are always expected to provide excellent service
+      to you and do give us the opportunity to serve you better in the future. :)
+  utter_compliment_airline:
+  - text: Awesome! :) That's great news for us.
+  - text: Yes!!! We're excited to have you with us again.
+  - text: That's music to our ears! we can't wait to share the next filght with you
+      together soon!
+  - text: Sounds like you had a good flight with us and can't wait to do it all again
+      soon!
+  utter_compliment_employee:
+  - text: Thanks for the compliment. Really appreciate it.
+  - text: Thanks for the awesome shout out and have a great day!!! Cheers :)
+  - text: Thanks for your kind feedback.
+  - text: We definitly have some of the best crews in the business!! :D
+  utter_happy_event:
+  - text: Great! Hope that's makes your day. :)
+  - text: :) Great to hear you love it !!!
+  - text: That's awesome !
+  - text: We love getting into the celebration spirit! ;) We're so happy you enjoy.
+  utter_compliment_thanks:
+  - text: Thanks again for your kind compliment.
+    image: https://imgur.com/gallery/n5250M4
+  - text: Great to hear that. :)
+  utter_default:
+  - text: Sorry, I apologise. I didn't understand that. Can you rephrase ?
+actions:
+- utter_greet
+- utter_cheer_up
+- utter_did_that_help
+- utter_happy
+- utter_goodbye
+- utter_iamabot
+- utter_complain_airline
+- utter_complain_employee
+- utter_solution_airline
+- utter_solution_employee
+- utter_compliment_airline
+- utter_compliment_employee
+- utter_happy_event
+- action_check_weather
+- utter_compliment_thanks
+- utter_default
