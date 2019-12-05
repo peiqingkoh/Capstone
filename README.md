@@ -3,7 +3,8 @@
 1)code 
  - 1_Kaggle_twcs.ipynb
  - 2_ChatBot_MultiClassClassificaiton.ipynb 
- - 3_ChatBot_TopicModelling.ipynb  
+ - 3_ChatBot_TopicModelling.ipynb 
+ 
 2)datasets
  - AirAsiaSupport_df.csv
  - AmericanAir_df.csv
@@ -11,9 +12,13 @@
  - combine_airlines1.csv 
  - Delta_df.csv
  - SouthwestAir_df.csv 
+ 
 3)flaskservice
+
 4)Airline_ChatBot
+
 5)apstone Project - Feedback ChatBot.ppt
+
 6)README.md
 
 
